@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<engine:UXML
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:engine="UnityEngine.UIElements"
+    xmlns:editor="UnityEditor.UIElements"
+    xmlns:my="MyControls"
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+    xsi:schemaLocation="UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd">
+
+  <engine:Label text="Sample1 UXML" />
+
+  <my:RedButton text="button1" name="btn1" />
+  <my:RedButton text="button2" name="btn2" />
+  <my:RedButton text="button3" name="btn3" />
+
+  <engine:Label text="Sample1 UXML end" />
+</engine:UXML>

@@ -1,0 +1,5 @@
+Button {
+    font-size: 15px;
+    -unity-font-style: bold;
+    color: rgb(255, 0, 0);
+}
