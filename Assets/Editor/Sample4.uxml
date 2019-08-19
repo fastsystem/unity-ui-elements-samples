@@ -3,14 +3,13 @@
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns:engine="UnityEngine.UIElements"
     xmlns:editor="UnityEditor.UIElements"
-
-xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
-xsi:schemaLocation="
-                        UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd
+    xsi:noNamespaceSchemaLocation="../../UIElementsSchema/UIElements.xsd"
+    xsi:schemaLocation="UnityEngine.UIElements ../../UIElementsSchema/UnityEngine.UIElements.xsd
                         UnityEditor.UIElements ../../UIElementsSchema/UnityEditor.UIElements.xsd
                         MyControls ../../UIElementsSchema/MyControls.xsd
-                        UnityEditor.PackageManager.UI ../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd
-"
->
-    <engine:Label text="Hello World! From UXML" />
+                        UnityEditor.PackageManager.UI ../../UIElementsSchema/UnityEditor.PackageManager.UI.xsd">
+  
+  <engine:Label text="start" name="label" />
+  <engine:Image name="image" />
+  <engine:SliderInt low-value="0" high-value="92" value="1" name="slider" />
 </engine:UXML>

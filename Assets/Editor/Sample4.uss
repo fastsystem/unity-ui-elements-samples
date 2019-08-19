@@ -1,5 +1,13 @@
 Label {
     font-size: 20px;
     -unity-font-style: bold;
+	-unity-text-align: middle-center;
     color: rgb(68, 138, 255);
+}
+
+Image {
+    padding-left: 20;
+    padding-top: 20;
+    height: 150;
+	background-image: url("/Assets/Resources/img_0.png");
 }
